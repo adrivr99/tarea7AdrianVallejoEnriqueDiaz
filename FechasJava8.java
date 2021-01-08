@@ -93,7 +93,7 @@ public class FechasJava8 {
         System.out.println("Hace un siglo " + haceUnSiglo);
         System.out.println("¿Qué día de la semana? " + haceUnSiglo.getDayOfWeek());
         
-        /* DÍAS ENTRE FECHAS */
+        /* D�?AS ENTRE FECHAS */
         
         long diferenciaDias = ChronoUnit.DAYS.between(haceUnSiglo, hoy);
         System.out.println("Días entre fechas " + diferenciaDias);
@@ -131,7 +131,7 @@ public class FechasJava8 {
         System.out.println(tiempoEntreGenios);
         System.out.println("Meses totales entre fechas " + tiempoEntreGenios.toTotalMonths());
         
-        /* MOSTRAR INFORMACIÓN */
+        /* MOSTRAR INFORMACION */
         
         DayOfWeek lunes = DayOfWeek.MONDAY;
         
